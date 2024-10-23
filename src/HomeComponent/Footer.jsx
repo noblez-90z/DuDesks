@@ -30,7 +30,7 @@ const Footer = () => {
           <img src={Logo} alt="" className="mx-auto pb-2 w-[30%] " />
           <div className="border-b-2  text-center ">
             <nav className="">
-              <div className=" list-none  pb-3 flex justify-center items-center gap-1 md:gap-4 px-2 capitalize text-[#f8fbfd] font-semibold text-[14px]">
+              <div className=" list-none  pb-3 flex flex-wrap justify-center items-center gap-1 md:gap-4 px-2 capitalize text-[#f8fbfd] font-semibold text-[14px]">
                 <li className="flex items-center ">
                   <Link>home</Link>
                 </li>

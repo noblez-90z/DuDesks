@@ -12,8 +12,8 @@ const Section = () => {
         <p className="text-[14px] text-[#002f49] text-center py-2 capitalize">
           Choose the best plan for your school’s needs and budget
         </p>
-        <div className="block md:flex gap-4 items-end mt-5 py-6 ">
-          <div className="rounded-lg flex-1 bg-[#f8fbfd] px-3 py-3 h-fit shadow-sm ">
+        <div className="block md:flex gap-6 items-end mt-5 py-6 mx-auto md:w-[80%]">
+          <div className="rounded-lg flex-1  bg-[#f8fbfd] px-3 py-3 w-fit h-fit shadow-sm ">
             <h2 className="font-semibold text-[18px] py-2 mt-4">
               Monthly Plan
             </h2>
@@ -27,7 +27,7 @@ const Section = () => {
               <img src={ArrowRight} alt="" />
             </button>
           </div>
-          <div className="rounded-lg flex-1   pt-3 bg-[#002f49] mt-5 md:mt-0 shadow-sm">
+          <div className="rounded-lg  flex-1  pt-3 bg-[#002f49] mt-5 md:mt-0 shadow-sm">
             <div className="px-3 text-[#fefbfd]">
               <h2 className="font-semibold text-[18px] py-2">Quarterly Plan</h2>
               <p className="py-1">Opt for termly billing to save more.</p>
@@ -49,7 +49,7 @@ const Section = () => {
               </button>
             </div>
           </div>
-          <div className="rounded-lg flex-1 bg-[#f8fbfd] px-3 py-3 mt-5 md:mt-0 shadow-sm">
+          <div className="rounded-lg flex-1 bg-[#f8fbfd]  px-3 py-3 mt-5 md:mt-0 shadow-sm">
             <h2 className="font-semibold text-[18px] py-2 mt-4">Yearly Plan</h2>
             <p className="py-1">
               Our best value for schools looking for long term solutions
@@ -71,7 +71,7 @@ const Section = () => {
           <p className="text-[14px] text-[#041822] text-center">
             Manage your school’s income and Expenses in just a few simple steps
           </p>
-          <div className="block md:flex mt-12 gap-1">
+          <div className="block md:flex mt-14 pt-4 gap-1">
             <div className="flex-1   py-3">
               <div className="relative">
                 <div className="border-[2px] border-[#f8fbfd] absolute left-0 w-[30px]  h-[30px]   bg-[#041822] rounded-full flex justify-center items-center">
@@ -91,7 +91,7 @@ const Section = () => {
                 </p>
               </div>
             </div>
-            <div className="flex-1 mt-4 md:mt-11">
+            <div className="flex-1 mt-4 md:mt-14">
               <div className="relative  h-[40px]">
                 <div className="border-[2px] border-[#f8fbfd] absolute left-0  w-[30px]  h-[30px] rounded-full bg-[#4b8bbe]  flex justify-center items-center">
                   <p className=" text-[#f8fbfd] ">2</p>
@@ -129,7 +129,7 @@ const Section = () => {
                 </p>
               </div>
             </div>
-            <div className="flex-1 mt-4 md:mt-11">
+            <div className="flex-1 mt-4 md:mt-14">
               <div className="border-[2px] border-[#f8fbfd] w-[30px]  h-[30px] rounded-full bg-[#4b8bbe]   flex justify-center items-center">
                 <p className=" text-[#f8fbfd] ">4</p>
               </div>

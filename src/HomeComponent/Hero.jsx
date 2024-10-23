@@ -44,7 +44,10 @@ const Hero = () => {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4  md:gap-4 justify-center py-3">
             {schools.map((schools, index) => (
-              <div key={index} className=" flex items-center gap-2 ">
+              <div
+                key={index}
+                className=" flex items-center justify-center gap-2 "
+              >
                 <img src={schools.logo} alt="" className="w-8 h-8" />
                 <p className="text-[#59676e] text-[14px] font-thin md:font-normal capitalize">
                   {schools.name}{" "}
