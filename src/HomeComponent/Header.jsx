@@ -5,7 +5,6 @@ import dot from "../assets/Ellipse 1.svg";
 import menu from "../assets/menu.svg";
 import cancelMenu from "../assets/cancel menu.svg";
 import { useState } from "react";
-import OverLay from "./OverLay";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
