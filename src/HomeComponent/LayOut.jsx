@@ -1,10 +1,10 @@
 import Footer from "./Footer";
-import Header from "./Header";
+import Heads from "./Heads";
 
 const LayOut = ({ children }) => {
   return (
     <div className="">
-      <Header />
+      <Heads />
       {children}
       <Footer />
     </div>
